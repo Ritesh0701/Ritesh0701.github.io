@@ -181,7 +181,10 @@ footer{
 #LetsExplore:hover{
     height: 57.538px;
     width: 170px;
-    font-size: 23.538px;
+    font-size: 22.2px;
+    background-color: rgb(232, 255, 255);
+    color: rgb(64, 152, 183);
+    font-weight: bold;
     transition: font-size 0.5s ease-in-out
 }
 
