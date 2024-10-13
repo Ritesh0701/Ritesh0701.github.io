@@ -1,0 +1,463 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#logo{
+    height: 40px;
+}
+
+body{
+    background-color: azure;
+}
+
+#head{
+    padding: 10px;
+    background-color: rgb(240, 250, 242);
+    height: 37.641px;
+    display: flex;
+    flex-direction: row;
+}
+
+#home{
+    margin-left: 500px;
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+#services{
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+#about{
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+#contact{
+    /* margin-right: 100px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+footer{
+    background-color: rgb(10, 33, 15);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footupper{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8vw;
+}
+
+.footlower{
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+
+.footrow1{
+    margin-top: 50px;
+}
+
+
+#AboutUs{
+    display: flex;
+    flex-direction: column;
+}
+
+#QuickLinks{
+    display: flex;
+    flex-direction: column;
+}
+
+#HelpfulLinks{
+    display: flex;
+    flex-direction: column;
+}
+
+#Resources{
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    background-color: rgb(232, 255, 255);
+    width: 100vw;
+    height: 100vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#content1{
+    background-color: rgb(34, 87, 122);
+    display: flex;
+    flex-direction: row;
+}
+
+#content1img{
+    width: 60%;
+    /* height: auto; */
+    display: block;
+    margin: auto;
+}
+
+#content1left{
+    width:50%;
+}
+
+#content1right{
+    width: 50%;
+    margin-top: 63px;  
+}
+
+#pre1{
+    text-align: justify;
+    white-space: pre-line;
+    padding-top: 120px;
+    padding-left: 80px;
+}
+
+#HealthcareManagement{
+
+    font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+    font-size: 50px;
+    text-align: left;
+    /* width: 50%; */
+}
+
+#HeadingContent{
+    color: white; 
+    font-style: italic;
+    font-size: 20px; 
+    padding-left: 80px;
+    padding-top: 5px;
+} 
+
+
+#LetsExplore{
+    position: relative;
+    height: 44px;
+    width: 130px;
+    font-size: 18px;
+    background-color: rgb(64, 152, 183);
+    border: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    border-radius: 7px;
+}
+
+#LetsExplore:hover{
+    height: 57.538px;
+    width: 170px;
+    font-size: 23.538px;
+    transition: font-size 0.5s ease-in-out
+}
+
+#content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#BookAppointment{
+    background-color: rgb(0, 63, 107);
+    margin-right: 100px;
+    height: 44px;
+    width: 300px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#OrganizeMedRecords{
+    background-color: rgb(0, 63, 107);
+    height: 44px;
+    width: 300px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+#BookAppointment:hover{
+    width: 330px;
+    
+}
+
+
+/* #hr1{
+    top: 70px;
+} */
+
+#content3{
+    margin: 40px;
+    background-color: white;
+    position: relative;
+    top: 60px;
+}
+
+#heading1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-top: 30px;
+}
+
+#content4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 30px;
+    padding-right: 40px;
+    width: 40%;
+    height: auto;
+}
+#heading2{
+    color: blue;
+    font-size: 25px;
+    color: rgb(0, 38, 119);
+    padding-top: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+#StreamlinedOperationsContent{
+    color: black;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#heading3{
+    color: blue;
+    font-size: 25px;
+    padding-top: 15px;
+    color: rgb(0, 38, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+#EnhancedPatientCare{
+    color: black;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#heading4{
+    color: blue;
+    font-size: 25px;
+    padding-top: 15px;
+    color: rgb(0, 38, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+#Interoperability{
+    color: black;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#heading5{
+    color: blue;
+    font-size: 25px;
+    padding-top: 15px;
+    color: rgb(0, 38, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+#InformationSecurity{
+    color: black;
+    font-size: 18px;
+    padding-bottom: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#content4flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#content4img{
+    margin-top: 4%;
+    width: 60%;
+    /* height: auto; */
+    display: block , flex;
+
+}
+
+.content5column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#content5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.patientcare{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 200px;
+}
+
+.clinical{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;
+}
+
+.ModulesboxHeading{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.75vw;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ModulesboxText{
+    color: grey;
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#SoftwareModules{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+#SoftwareModulesText{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+#ViewModules{
+    background-color: rgb(0, 63, 107);
+    position: relative;
+    top: 40px;
+    margin-right: 100px;
+    height: 44px;
+    width: 200px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+}
+
+.Modulesbox{
+    background-color: rgb(244, 255, 255);
+}
+
+.PatientCareBox{
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+#pc1{
+    margin: 15px;
+    margin-left: 60px;
+}
+
+#pc2{
+    margin: 15px;
+    margin-left: 60px;
+}
+
+#pc3{
+    margin: 15px;
+    margin-left: 60px;
+}
+
+#r1{
+    margin: 15px;
+}
+
+#r2{
+    margin: 15px;
+}
+
+#c1{
+    width: 30%;
+}
+
+#c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+#c3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    width: 40%;
+}
+
+.moduleicon{
+    padding: 40px;
+    padding-bottom: 2px;
+}
